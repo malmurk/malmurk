@@ -1,6 +1,6 @@
 # Cătălin Friptu
 
-Applied AI / LLM engineer in Chișinău, Moldova (UTC+2/+3). I design ML and LLM systems, set the eval bar, direct AI coding agents to build them, and decide what ships.
+Building ML + LLM systems in Chișinău, Moldova (UTC+2/+3), looking for AI engineering work. I design ML and LLM systems, set the eval bar, direct AI coding agents to build them, and decide what ships.
 
 **Public: [agent-ops-harness](https://github.com/malmurk/agent-ops-harness)**, the hooks, federated RAG and model router I run around my coding agents, with the eval method and its limits written down.
 
