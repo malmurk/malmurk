@@ -1,22 +1,13 @@
-### 👋 Cătălin Friptu — AI automation & ML pipelines · Chișinău, Moldova · remote-ready
+# Cătălin Friptu
 
-**90.6% auto-classification on a 500k-SKU production catalog** → [multilingual-product-classifier](https://github.com/malmurk/multilingual-product-classifier)
+Applied AI / LLM engineer in Chișinău, Moldova (UTC+2/+3). I design ML and LLM systems, set the eval bar, direct AI coding agents to build them, and decide what ships.
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/malmurk/multilingual-product-classifier)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://github.com/malmurk/multilingual-product-classifier)
-[![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)](https://github.com/malmurk/multilingual-product-classifier)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/malmurk/multilingual-product-classifier)
-[![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://malmurk.github.io)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://malmurk.github.io)
+**Public: [agent-ops-harness](https://github.com/malmurk/agent-ops-harness)**, the hooks, federated RAG and model router I run around my coding agents, with the eval method and its limits written down.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-malmurk.github.io-000000?style=flat-square&logo=github&logoColor=white)](https://malmurk.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/catalin-friptu-437026270)
-[![Email](https://img.shields.io/badge/Email-contact-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:friptu.05@gmail.com)
+Main work, in private repos (pilot projects for a Moldovan marketplace; I can share my screen and go through the code):
 
-#### Now building
+- **Hybrid ML + LLM product categorizer.** 84.8% acceptable-set accuracy vs 47.4% for the previous model on a 599-row blind test; 63.6% auto-assigned at 95.5% precision; $0.04 per 1,000 rows.
+- **Marketplace buyer app** (React Native, TypeScript), two developers, release candidate: ~2,800 tests and 72 Maestro E2E flows.
+- **Agent harness and federated RAG** (supporting): retrieval over 5 knowledge bases with bge-m3 on my own GPU; on a 20-query eval, the model switch plus a chunking-bug fix took recall@1 from 0.467 to 0.733 and MRR from 0.598 to 0.771.
 
-- **Multilingual product classification** — three-stage XLM-RoBERTa cascade, INT8 ONNX in production, ~$0.05/1,000 SKUs at threshold 0.93
-- **RAG & agentic workflows** — verification-gated automation pipelines
-- **React Native B2B app** — production marketplace mobile app (TypeScript, Expo)
-
-Romanian (native) · Russian (native) · English (B2–C1) — an asset for multilingual ML work
+Day job: Support Engineer at Stefanini EMEA. friptu.05@gmail.com
